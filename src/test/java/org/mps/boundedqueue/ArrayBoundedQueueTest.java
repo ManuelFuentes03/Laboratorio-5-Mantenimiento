@@ -102,10 +102,12 @@ public class ArrayBoundedQueueTest {
             queue.put(2);
             queue.put(3);
             queue.put(4);
+            queue.get();
+            queue.get();
 
             int result = queue.getFirst();
 
-            assertThat(result).isZero();
+            assertThat(result).isEqualTo(2);
         }
 
         @Test
