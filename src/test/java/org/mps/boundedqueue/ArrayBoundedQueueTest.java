@@ -1,3 +1,9 @@
+/*
+ * @author1 José Antonio Casado Molina
+ * @author2 Clemente Cano Mengíbar
+ * @author3 Manuel Fuentes Vida
+ */
+
 package org.mps.boundedqueue;
 
 import static org.assertj.core.api.Assertions.*;
