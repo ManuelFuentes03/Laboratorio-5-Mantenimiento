@@ -82,7 +82,7 @@ public class ArrayBoundedQueueTest {
 
         @Test
         @DisplayName("Debe devolver cero cuando la cola está vacía")
-        public void getFirst_QueueWithNoElements_ReturnsZero(){
+        public void size_QueueWithNoElements_ReturnsZero(){
             ArrayBoundedQueue<Integer> queue = new ArrayBoundedQueue<Integer>(5);
 
             int result = queue.size();
